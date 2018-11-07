@@ -1,0 +1,7 @@
+
+set(TEST_GIT_REPO /data/OpenCMISS/examples/laplace_equation)
+set(TEST_BRANCH develop)
+set(TEST_TARGETS laplace_equation_C)
+set(TEST_EXPECTED_RESULTS src/c/expected_results/)
+set(TEST_ABS_TOLERANCE 1e-12)
+set(TEST_REL_TOLERANCE 1e-12)
